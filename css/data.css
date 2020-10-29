@@ -4,7 +4,7 @@ html {
     font-family: 'Keraleeyam', sans-serif; 
 } 
 
-@import url('https://smc.org.in/fonts/meera.css'); html { font-family: 'Meera', sans-serif; } 
+@import url('https://smc.org.in/fonts/manjari.css'); html { font-family: 'Manjari', sans-serif; } 
 
 
 
@@ -106,9 +106,9 @@ hr{
 
 
 .data{
-    font-family: Meera;
+    font-family: Manjari;
     color: #434343;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .products{

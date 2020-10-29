@@ -3,7 +3,7 @@
         font-family: 'Keraleeyam', sans-serif; 
     } 
 
-
+    @import url('https://smc.org.in/fonts/manjari.css'); html { font-family: 'Manjari', sans-serif; } 
 
 @font-face{
     font-family: 'Ver';
