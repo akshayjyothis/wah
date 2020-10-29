@@ -1,0 +1,277 @@
+
+@import url('https://smc.org.in/fonts/keraleeyam.css'); 
+html { 
+    font-family: 'Keraleeyam', sans-serif; 
+} 
+
+@import url('https://smc.org.in/fonts/meera.css'); html { font-family: 'Meera', sans-serif; } 
+
+
+
+@font-face{
+    font-family: 'Ver';
+    src: url('../fonts/verabi.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Title{
+    font-family: Ver;
+    font-size: 10vh;
+    color: #5ca54b;
+}
+
+.contents h2{
+    font-family: Keraleeyam;
+    background-color: #5ca54b;
+    color: white;
+    margin: 0.5%;
+    margin-left: 0;
+    margin-right: 2%;
+    padding: 15px 90px 10px 60px;
+    width: max-content;
+    font-size: vh;
+    font-stretch: 10px;
+    letter-spacing: 1px;
+    font-weight: 1;
+}
+
+hr{
+    color: #5ca54b;
+    width: 500px;
+}
+
+.Semi{
+    
+    font-family: Keraleeyam;
+    color: #434343;
+    font-weight: 1;
+    letter-spacing: .5px;
+    font-size: 6vh;
+    text-align: left;
+    
+}
+
+.SubSemi{
+    
+    font-family: Keraleeyam;
+    color: #5ca54b;
+    font-weight: 1;
+    letter-spacing: 1px;
+    font-size: 3vh;
+    text-align: left;
+    
+}
+
+.SubSemi-G{
+    
+    font-family: Keraleeyam;
+    color: #5ca54b;
+    font-weight: 1;
+    letter-spacing: 1px;
+    font-size: 3vh;
+    text-align: left;
+    
+}
+
+.SubSemi-M{
+    
+    font-family: Keraleeyam;
+    color: #5ca54b;
+    font-weight: 1;
+    letter-spacing: 1px;
+    font-size: 5vh;
+    text-align: left;
+    font-style: italic;
+    
+}
+
+.pro a{
+    font-family: Axiforma;
+    color: #5ca54b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    
+}
+    
+
+
+.data{
+    font-family: Meera;
+    color: #434343;
+    font-size: 20px;
+}
+
+.products{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pro{
+    margin:10px;
+    border: 2px solid #5ca54b;
+    padding: 10px 10px 8px 10px;
+    width: max-content;
+    margin-left: 0;
+
+}
+
+.Quotes{
+    font-family: Keraleeyam;
+        color: #434343;
+        font-weight: 1;
+        letter-spacing: .5px;
+        font-size: 3vh;
+        text-align: left;
+}
+
+.rese{
+    
+    font-family: Keraleeyam;
+    color: #434343;
+    font-weight: 1;
+    letter-spacing: .5px;
+    font-size: 2.5vh;
+    text-align: left;
+    
+}
+
+
+@media screen and (max-width:768px){
+
+    .Semi{
+    
+        font-family: Keraleeyam;
+        color: #434343;
+        font-weight: 1;
+        letter-spacing: .5px;
+        font-size: 4vh;
+        text-align: left;
+        
+    }
+
+    .rese{
+    
+        font-family: Keraleeyam;
+        color: #434343;
+        font-weight: 1;
+        letter-spacing: .5px;
+        font-size: 2.3vh;
+        text-align: left;
+        
+    }
+    
+    
+    .SubSemi{
+        
+        font-family: Keraleeyam;
+        color: #5ca54b;
+        font-weight: 1;
+        letter-spacing: 1px;
+        font-size: 3vh;
+        text-align: left;         
+    }   
+
+
+.SubSemi-M{
+    
+    font-family: Keraleeyam;
+    color: #5ca54b;
+    font-weight: 1;
+    letter-spacing: 1px;
+    font-size: 4vh;
+    text-align: left;
+    font-style: italic;
+    
+}
+
+
+    .Title{
+        display: none;
+    }
+
+    .Semi{
+    
+        font-family: Keraleeyam;
+        color: #434343;
+        font-weight: 1;
+        letter-spacing: .5px;
+        font-size: 4vh;
+        text-align: left;
+        
+    }
+    
+    .SubSemi{
+        
+        font-family: Keraleeyam;
+        color: #5ca54b;
+        font-weight: 1;
+        letter-spacing: 1px;
+        font-size: 3vh;
+        text-align: left;
+    }
+
+    .contents h2{
+        font-family: Keraleeyam;
+        background-color: #5ca54b;
+        color: white;
+        margin: 0.5%;
+        margin-left: 0.5%;
+        margin-left: 0;
+        padding: 15px 10px 8px 10px;
+        width: max-content;
+        font-size: 23px;
+        font-stretch: 10px;
+        letter-spacing: 1px;
+        font-weight: 1;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+
+    .pro{
+       
+        margin-left: 0;
+    }
+    .pro a{
+        font-size: 13px;
+        
+    }
+
+    .linew{
+        display: none;
+    }
+        
+    .linem{
+        display: block;
+        width: 80%;
+    }
+    
+
+    .mob-view{
+        background-color: #5ca54b;
+    }
+
+    #dl{
+        margin-bottom: 40px;
+    }
+
+
+    .position{
+        position: static;
+    }
+}
+
+
+
+

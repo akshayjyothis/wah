@@ -1,0 +1,238 @@
+@import url('https://smc.org.in/fonts/keraleeyam.css'); 
+    html { 
+        font-family: 'Keraleeyam', sans-serif; 
+    } 
+
+
+
+@font-face{
+    font-family: 'Ver';
+    src: url('../fonts/verabi.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    display: flex;
+}
+
+.left-panel{
+    position: fixed;
+    overflow: hidden;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    background-color: #5ca54b;
+    height: 110vh;
+}
+
+.right-panel{
+    background-color: white;
+    margin: 2%;
+    margin-left: 22%;
+    width: 80%;
+    height: 92vh;
+}
+
+.logo{
+    width: 190px;
+    margin: 25px 0 75px 0;
+    padding: 35px;
+}
+
+
+.nav-items li{
+    list-style: none;
+    border-top: 1px solid white;
+    padding: 10px;
+}
+
+.nav-items li a{
+    text-decoration: none;
+    color: white;
+    font-family: Keraleeyam;
+}
+
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+  width: 33px;
+  height: 4px;
+  margin-bottom: 8.3px;
+  margin-right: 9px;
+  position: relative;
+  background-color: white;
+  border-radius: 3px;
+}
+
+#facebook-logo{
+    display: flex;
+}
+
+#facebook-logo img {
+    width: 30px;
+}
+
+.login {
+    background-color: #5ca54b;
+    text-decoration: none;
+    font-family: Axiforma;
+    text-align: center;
+    margin-left: 10px;
+    padding: 3px 10px 0px 10px;
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo-mob{
+    display: none;
+}
+
+.bottom{
+   display: none;
+    
+}
+
+
+@media screen and (max-width:768px){
+
+    .section{
+        display: block;
+    }
+
+    .left-panel{
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 1%;
+        height: 100px;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+    }
+
+    .right-panel{
+        margin-top: 80px;
+        margin-left: 2%;
+    }
+
+    .logo{
+        margin: 0;
+        max-width: 100%;
+        width: 80px;
+        height: 61px;
+        padding: 0;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .login{
+        padding: 5px 10px 0px 10px;
+    }
+
+    #facebook-logo{
+        display: none;
+    }
+
+    .nav-items{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 20vh;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 5%;
+    }
+
+    .nav-items li{
+        border: 0;
+    }
+
+    .logo-mob {
+        display: flex;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        top: 50%;
+    }
+
+    .logo-fb img{
+        width: 30px;
+        height: 30px;
+        align-self: center;
+        margin-right: 15px;
+        max-width: 100%;
+    }
+
+    .burger{
+        display: block;
+
+    }
+
+    .toggle .line1 {
+        transform: rotate(-45deg) translate(-18px, 4px);
+        
+    }
+    .toggle .line2 {
+        transform: rotate(45deg) translate(-4px, 8px);
+    }
+    .toggle .line3 {
+        display: none;
+    }
+
+    .nav-active{
+        display: flex;
+    }
+
+    .active{
+        display: none;
+    }
+
+    .mob-view{
+        background-color: #5ca54b;
+    }
+
+    .bottom{
+        display: block;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        left: 0 color green;
+        font-family: Keraleeyam;
+        background: #5ca54b;
+        width: 100%;
+        overflow: scroll;
+        padding: 10px;
+        overflow: auto;
+        white-space: nowrap;
+        font-size: 20px;
+    }
+    .base{
+        color: white;
+        text-decoration: none; 
+        padding: 8px;
+    }
+    .position{
+        position: static;
+    }
+
+}
