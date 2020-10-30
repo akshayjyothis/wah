@@ -6,6 +6,7 @@ const navSlide = () => {
     const leftpanel = document.querySelector('.left-panel');
     const section = document.querySelector('.section');
     const body = document.querySelector('body');
+    const loader = document.querySelector(".loader-wrapper");
 
 
     burger.addEventListener("click" , () => {
@@ -15,6 +16,10 @@ const navSlide = () => {
         body.classList.toggle("mob-view");
         leftpanel.classList.toggle("position");
     });
+    setTimeout(() => {
+        loader.style.display="none";
+        console.log("ok");
+    }, 1500);
 };
 
 navSlide();
